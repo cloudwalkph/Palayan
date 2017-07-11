@@ -14,9 +14,18 @@
 .slogan {
     font-family: futura-md-bt;
     color: #ffffff;
+    text-align: center;
+    margin-top: 26%;
+    font-size: 50px;
 }
 
 .slogan-sub {
     font-family: Open-Sans;
     color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+}
+
+.lrnmore{
+    margin-left: 48%;
 }
