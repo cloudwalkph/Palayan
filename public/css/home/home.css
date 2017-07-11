@@ -1,0 +1,22 @@
+.section2 {
+    height: 100vh;
+}
+
+.section1 {
+    background: url("../../images/palayan-bg.jpg") no-repeat center center fixed;
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.slogan {
+    font-family: futura-md-bt;
+    color: #ffffff;
+}
+
+.slogan-sub {
+    font-family: Open-Sans;
+    color: #ffffff;
+}
