@@ -28,4 +28,170 @@
 
 .lrnmore{
     margin-left: 48%;
+    font-family: open-sansbold;
+}
+
+.sec2-content{
+    font-family: futura-md-bt;
+    color: #8dc640;
+    margin-left: 26%;
+    margin-top: 20%;
+    font-size: 53pt;
+}
+
+.sec2-content1{
+    font-family: open-sansbold;
+    color: #5a5a5a;
+    margin-left: 26%;
+    font-size: 20px;
+}
+
+.sec2-content2{
+    font-family: Open-Sans;
+    color: #5a5a5a;
+    margin-left: 26%;
+    line-height: 25px;
+}
+
+.sec2-content3{
+    font-family: Open-Sans;
+    color: #acbbce;
+    line-height: 25px;
+}
+.bullets{
+    font-family: Open-Sans;
+    margin-left: 29%;
+    line-height: 25px;
+    color: #177fff;
+    font-size: 13px;
+
+}
+
+.sec2-img{
+    width: 90%;
+    margin-top: 20%;
+}
+
+.rdmre{
+    margin-left: 28%;
+    font-family: open-sansbold;
+}
+
+.section3 {
+    background: url("../../images/sec3-bg.png") no-repeat center;
+    height: 64vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.slogan1 {
+    font-family: futura-md-bt;
+    color: #ffffff;
+    text-align: center;
+    font-size: 45px;
+    margin-top: 11%;
+}
+
+.slogan-sub1 {
+    font-family: Open-Sans;
+    color: #ffffff;
+    text-align: center;
+    line-height: 25px;
+    font-size: 11px;
+    padding: 0px 214px;
+}
+
+.section6 {
+    background: url("../../images/sec6-bg.png") no-repeat center;
+    height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.slogan2 {
+    font-family: futura-md-bt;
+    color: #ffffff;
+    font-size: 60px;
+    margin-top: 11%;
+    margin-left: 20%;
+}
+
+.sec6-content{
+    font-family: open-sansbold;
+    color: #ffffff;
+    line-height: 40px;
+    font-size: 14px;
+    margin-left: 20%;
+}
+
+.slogan-sub2 {
+    font-family: Open-Sans;
+    color: #ffffff;
+    line-height: 18px;
+    font-size: 11px;
+    margin-left: 20%;
+}
+
+.lrninvest{
+    font-family: open-sansbold;
+    margin-left: 20%;
+    color: #177fff;
+    margin-top: 3%;
+}
+
+.footer-label{
+    font-family: futura-md-bt;
+    color: #8dc640;
+}
+
+.footer-content{
+    color: #535353;
+    font-family: Open-Sans;
+    padding: 0px 422px;
+    line-height: 20px;
+}
+
+.footer{
+    text-align: center;
+}
+
+.phone-icon{
+    width: 8%;
+}
+
+.mail-icon{
+    width: 8%;
+    margin-left: 100%;
+}
+
+.mail{
+    margin-left: 10%;
+}
+
+.mail1{
+    font-family: open-sansbold;
+    color: #177fff;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-left: -116px;
+
+}
+
+.telephone{
+    /*margin-left: -8%;*/
+    margin-left: -19%;
+}
+
+.number{
+    font-family: open-sansbold;
+    /*margin-left: -23%;*/
+    margin-left: -163%;
+    color: #177fff;
+    font-size: 14px;
+    /*margin-top: -17px;*/
+    margin-top: 5px;
 }

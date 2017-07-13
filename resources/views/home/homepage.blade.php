@@ -12,5 +12,6 @@
     @include('home.section4')
     @include('home.section5')
     @include('home.section6')
+    @include('home.section7')
 
 @endsection
