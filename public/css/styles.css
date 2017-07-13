@@ -44,3 +44,8 @@
     color: #ffffff;
     font-family: open-sansbold;
 }
+
+.col-fluid {
+     padding-left: 0px;
+     padding-right: 0px;
+}
