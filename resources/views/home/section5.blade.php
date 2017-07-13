@@ -1,10 +1,10 @@
 <div class="row section5 text-center">
-    <div class="row">
+    <div class="row section5-row">
         <h1 class="section5-slogan">LATEST UPDATES</h1>
         <h6 class="section5-slogan-sub">Catch the latest news updates and events lined up for Palayan City.</h6>
     </div>
 
-    <div class="row">
+    <div class="row section5-row">
         <div class="latest-updates">
             <div class="slide">
                 <img src="{{ asset('images/slides/cream-of-the-crop.jpg') }}">

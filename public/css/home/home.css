@@ -69,6 +69,10 @@
     font-size: 1.7vh;
 }
 
+.section5-row {
+    width: 100%;
+}
+
 .slider-info {
     padding: 22px 42px;
     min-height: 40vh;
