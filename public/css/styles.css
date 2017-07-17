@@ -33,7 +33,15 @@
 }
 
 .navbar-logo {
-    max-width: 140px;
+    /*max-width: 113px;*/
+    /*padding-top: 55px;*/
+    /*margin-left: 60px;*/
+    margin-left: 39px;
+    max-width: 176px;
+}
+
+.navbar{
+    min-height: 80px;
 }
 
 .text-center {

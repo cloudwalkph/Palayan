@@ -1,6 +1,6 @@
-<div class="row align-items-center">
+<div class="row align-items-center rowfooter">
     <div class="col footer">
-        <img src="/images/contact-logo.png" class="img-fluid" alt="Responsive image">
+        <img src="/images/contact-logo2.png" class="img-fluid imglogo" alt="Responsive image">
         <h1 class="footer-label">CURIOUS FOR MORE?</h1>
         <h6 class="footer-content">Contact our customer support team if you have any further questions. We are here to help You out!</h6>
 

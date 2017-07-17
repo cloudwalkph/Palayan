@@ -14,6 +14,8 @@
     <link href="{{ asset('vendor/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/styles.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('css/probootstrap/styles-merged.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/probootstrap/style.css') }}">
 
     <style>
         .wizard ul, .tabcontrol ul{
@@ -42,7 +44,7 @@
 </head>
 <body>
     <div id="app">
-        <nav class="navbar navbar-fixed-top">
+        <nav class="navbar navbar-fixed-top navbar-default probootstrap-navbar scrolled">
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
@@ -52,7 +54,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#"><img class="navbar-logo" src="{{ asset('/images/palayan-logo.png') }}" alt=""></a>
+                    <a class="navbar-brand" href="#"><img class="navbar-logo" src="{{ asset('/images/pchb-logo.png') }}" alt=""></a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -72,6 +74,31 @@
             </div><!-- /.container-fluid -->
         </nav>
 
+        {{--<nav class="navbar navbar-default navbar-fixed-top probootstrap-navbar">--}}
+            {{--<div class="container">--}}
+                {{--<div class="navbar-header">--}}
+                    {{--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false" aria-controls="navbar">--}}
+                        {{--<span class="sr-only">Toggle navigation</span>--}}
+                        {{--<span class="icon-bar"></span>--}}
+                        {{--<span class="icon-bar"></span>--}}
+                        {{--<span class="icon-bar"></span>--}}
+                    {{--</button>--}}
+                    {{--<a class="navbar-brand" href="index.html" title="ProBootstrap:FineOak">FineOak</a>--}}
+                {{--</div>--}}
+
+                {{--<div id="navbar-collapse" class="navbar-collapse collapse">--}}
+                    {{--<ul class="nav navbar-nav navbar-right">--}}
+                        {{--<li class="active"><a href="#" data-nav-section="welcome">Welcome</a></li>--}}
+                        {{--<li><a href="#" data-nav-section="specialties">Specialties</a></li>--}}
+                        {{--<li><a href="#" data-nav-section="menu">Menu</a></li>--}}
+                        {{--<li><a href="#" data-nav-section="reservation">Reservation</a></li>--}}
+                        {{--<li><a href="#" data-nav-section="events">Events</a></li>--}}
+                        {{--<li><a href="#" data-nav-section="contact">Contact</a></li>--}}
+                    {{--</ul>--}}
+                {{--</div>--}}
+            {{--</div>--}}
+        {{--</nav>--}}
+
 
         <div class="container-fluid">
             @yield('content')
@@ -81,6 +108,8 @@
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
     <script src="{{ asset('js/jquery-3.2.0.min.js') }}"></script>
+    <script src="{{ asset('js/probootstrap/scripts.min.js') }}"></script>
+    <script src="{{ asset('js/probootstrap/custom.min.js') }}"></script>
 
     <script>
 //        toastr.options = {
@@ -103,5 +132,7 @@
     </script>
 
     @yield('scripts')
+
+
 </body>
 </html>
