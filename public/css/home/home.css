@@ -3,7 +3,8 @@
 }
 
 .section1 {
-    background: url("../../images/palayan-bg.jpg") no-repeat center center fixed;
+    /*background: url("../../images/palayan-bg.jpg") no-repeat center center fixed;*/
+    background: url("../../images/newbg.png") no-repeat center center fixed;
     height: 100vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -14,7 +15,7 @@
 .navbar-nav{
     /*margin-left: 45px;*/
     margin-left: 130px;
-    margin-top: 10px;
+    /*margin-top: 10px;*/
 }
 
 .slogan {

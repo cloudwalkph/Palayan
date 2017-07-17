@@ -32,8 +32,7 @@
             });
         }
     </script>
-    <script async defer
-         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCk3NEP3aTWe2beTuGUmKRy6_iIua3Sskg&callback=initMap">
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCk3NEP3aTWe2beTuGUmKRy6_iIua3Sskg&callback=initMap">
     </script>
 
     <!-- bxSlider Javascript file -->
@@ -49,6 +48,15 @@
                 infiniteLoop: true,
                 slideMargin: 15
             });
+
+            $(window).scroll(function(){
+                if($(this).scrollTop() < 100){
+                    $('.navbar-logo').attr('src','./images/pchb-logo-white.png');
+                }else {
+                    $('.navbar-logo').attr('src','./images/pchb-logo.png');
+                }
+
+            })
         });
     </script>
 @endsection
