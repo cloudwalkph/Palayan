@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('home/homepage');
 });
+
+Route::get('/services', function () {
+    return view('services/index');
+});

@@ -65,14 +65,15 @@
 .section5-slogan {
     color: #177fff;
     font-family: futura-md-bt;
-    font-size: 10vh;
+    /*font-size: 10vh;*/
+    font-size: 7vh;
 
 }
 
 .section5-slogan-sub {
     color: #5a5a5a;
-    font-family: open-sansbold;
-    margin: 30px 0px 80px 0;
+    font-family: open-sans;
+    margin: 15px 0px 80px 0;
     font-size: 1.7vh;
 }
 
@@ -82,14 +83,17 @@
 
 .slider-info {
     padding: 22px 42px;
-    min-height: 40vh;
-    max-height: 40vh;
+    /*min-height: 40vh;*/
+    /*max-height: 40vh;*/
+    min-height: 36vh;
+    max-height: 36vh;
 }
 
 .slide-title{
     font-family: futura-md-bt;
     color: #8dc640;
     font-size: 24px;
+    line-height: 25px;
 }
 
 .slider-date {
@@ -100,6 +104,10 @@
 .slider-description {
     font-family: Open-Sans;
     font-size: 11px;
+}
+
+.slider-des{
+    line-height: 16px;
 }
 
 .slide {
@@ -298,4 +306,10 @@
 .rowfooter{
     padding-bottom: 100px;
     background: #fff;
+}
+
+.bx-viewport {
+    height: 664px;
+    padding: 14px;
+    padding-left: 2px;
 }

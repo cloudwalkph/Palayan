@@ -63,7 +63,7 @@
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Why Palayan City</a></li>
                         <li><a href="#">About Us</a></li>
-                        <li><a href="#">Services</a></li>
+                        <li><a href="#" onclick="navredirect('services')" target="-self">Services</a></li>
                         <li><a href="#">Careers</a></li>
                         <li><a href="#">Locators</a></li>
                         <li><a href="#">Leasing</a></li>
@@ -112,6 +112,14 @@
     <script src="{{ asset('js/probootstrap/custom.min.js') }}"></script>
 
     <script>
+        function navredirect(event) {
+            if(event=='services'){
+                location.href="/services"
+            }else if(event=='services'){
+
+            }
+
+        }
 //        toastr.options = {
 //            "closeButton": true,
 //            "debug": false,
